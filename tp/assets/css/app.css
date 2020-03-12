@@ -1,0 +1,110 @@
+/*
+** BASE ======================================
+*/
+body {
+    font-family: 'Baloo Thambi 2', cursive;
+    background-color: #353b48;
+}
+
+.margin-top {
+    margin-top: 100px;
+}
+/*
+** Navbar ======================================
+*/
+
+.navbar.bg-light {
+    background-color: transparent;
+}
+
+.navbar-section {
+   background-color: #dcdde1;
+}
+
+img.brand-img {
+    width: 30%;
+    margin-top: 50px;
+}
+
+p.text-bottom {
+    margin-top: 5px;
+    font-weight: 400;
+}
+
+.border-left {
+    width: 50px;
+}
+
+.col-border {
+    border: 2px solid #333333;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.link-core {
+    padding: 10px;
+    margin-top: 25px;
+    color: #333333;
+}
+
+ul.nav-right {
+    float: right;
+}
+
+img.img-hero {
+    width: 100%;
+    margin: 0;
+}
+/*
+** Card 
+*/
+.container.shop-container {
+    background-color: #dcdde1;
+}
+.border-card {
+    padding: 10px;
+}
+
+.border-card img {
+    border: 2px solid #333333;
+}
+
+.card-shop {
+    position:relative;
+    padding-top:20px;
+    display:inline-block;
+}
+
+.notify-badge{
+    position: absolute;
+    right:-20px;
+    top:40px;
+    opacity: 0.8;
+    background:#353b48;
+    text-align: center;
+    color:#e1b12c;
+    padding:5px 10px;
+    font-size:20px;
+}
+
+.nav-link {
+    color: #333333;
+}
+
+hr.hr-vert{  
+    border:         0;
+    height:         80px;
+    float: left;
+    margin-right: 10px;
+    margin-top: 29px;
+    background-image: linear-gradient(-90deg, #e1b12c, transparent);
+    width:          10px;       
+}
+
+.footer-nav {
+    background-color: #ffffff;
+    float: right;
+    border: 2px solid #333333;
+    padding: 20px;
+    align-items: center;
+}
